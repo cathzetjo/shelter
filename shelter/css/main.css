@@ -162,6 +162,12 @@ section.pets h3 {
 
 }
 
+.pets-card:hover div.btn {
+    background-color: var(--color-primary);
+    transition: all;
+    transition-duration: 1s;
+}
+
 .pets-card p {
     font-family: var(--font1);
     color: var(--color-dark-l);
@@ -197,12 +203,6 @@ section.pets h3 {
     line-height: 130%;
     letter-spacing: 0.056em;
     cursor: pointer;
-}
-
-.pets-card div.btn:hover {
-    background-color: var(--color-primary);
-    transition: all;
-    transition-duration: 1s;
 }
 
 .pets-card .pets-picture {

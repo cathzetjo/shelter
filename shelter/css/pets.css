@@ -63,6 +63,12 @@ header {
 
 }
 
+.pets-card:hover div.btn {
+    background-color: var(--color-primary);
+    transition: all;
+    transition-duration: 1s;
+}
+
 .pets-card p {
     font-family: var(--font1);
     color: var(--color-dark-l);
@@ -100,11 +106,6 @@ header {
     cursor: pointer;
 }
 
-.pets-card div.btn:hover {
-    background-color: var(--color-primary);
-    transition: all;
-    transition-duration: 1s;
-}
 
 .pets-card .pets-picture {
     width: 270px;
@@ -223,6 +224,7 @@ header {
     border: 2px solid var(--color-primary);
     background-color: var(--color-primary);
     font-size: var(--font-size3);
+    cursor: none;
 }
 
 .pagination .circle-avaliable{
@@ -269,21 +271,19 @@ header {
     background-color: var(--color-dark-3xl);
 }
 
-.pagination .circle:hover {
-    border-color: var(--color-dark-m);
+.pagination .circle-avaliable:hover {
+    border-color: var(--color-dark-l);
     cursor: pointer;
+}
+
+.pagination .circle-active:hover{
+    cursor: context-menu;
+    border-color: var(--color-primary);
 }
 
 .pagination .circle-active div {
     color: var(--color-dark-3xl);
     font-family: var(--font1);
-    transition-duration: 2s;
-}
-
-
-.pagination .circle-active:hover div {
-    color: var(--color-light-xl);
-    transition-duration: 1s;
 }
 
 .pagination .circle-avaliable:hover {
@@ -291,7 +291,7 @@ header {
 }
 
 .pagination .circle-avaliable:hover .arrow{
-    background-color: var(--color-light-l);
+    background-color: var(--color-dark-xl);
 }
 
 .pagination .circle-not-avaliable:hover {
