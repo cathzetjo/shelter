@@ -85,7 +85,6 @@ section.about {
     display: flex;
     align-items: center;
     gap: 120px;
-    margin-top: -2px;
     justify-content: center;
     padding-top: 94px;
     padding-bottom: 26px;
@@ -100,7 +99,7 @@ section.about {
 
 .about-info p {
     font-family: var(--font2);
-    color: var(--color-dark-s);
+    color: var(--color-dark-xl);
     font-weight: var(--font-weight1);
     font-size: var(--font-size1);
     line-height: 160%;
@@ -372,16 +371,15 @@ section.donation {
 .donation-container {
     display: flex;
     align-items: center;
-    gap: 29px;
+    gap: 26px;
     justify-content: center;
     padding-top: 84px;
-    padding-bottom: 107px;
+    padding-bottom: 101px;
 }
 
 .donation-info {
     display: flex;
     flex-direction: column;
-    margin-bottom: -2%;
     gap: 19px;
     width: 380px;
 }
@@ -435,12 +433,13 @@ section.donation {
 }
 
 
-.donation-info .remark-text {
+.donation-info .remark{
     font-family: var(--font2);
     color: var(--color-dark-m);
     font-weight: var(--font-weight1);
     font-size: var(--font-size8);
-    line-height: 160%;
+    line-height: 18px;
+    font-style: italic;
 }
 
 
