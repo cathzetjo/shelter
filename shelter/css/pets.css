@@ -270,17 +270,30 @@ header {
 }
 
 .pagination .circle:hover {
-    border-color: var(--color-dark-3xl);
+    border-color: var(--color-dark-m);
     cursor: pointer;
 }
 
-.pagination .circle-active {
+.pagination .circle-active div {
     color: var(--color-dark-3xl);
     font-family: var(--font1);
+    transition-duration: 2s;
 }
 
 
+.pagination .circle-active:hover div {
+    color: var(--color-light-xl);
+    transition-duration: 1s;
+}
 
-/*.pagination .arrow-avaliable:hover {*/
-/*    background-color: var(--color-primary);*/
-/*}*/
+.pagination .circle-avaliable:hover {
+    background-color: var(--color-primary);
+}
+
+.pagination .circle-avaliable:hover .arrow{
+    background-color: var(--color-light-l);
+}
+
+.pagination .circle-not-avaliable:hover {
+    cursor: not-allowed;
+}
