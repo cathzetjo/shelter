@@ -1,0 +1,43 @@
+@import "normalize.css";
+@import "fonts.css";
+
+:root {
+    --font1: Georgia, sans-serif, serif;
+    --font2: Arial, sans-serif, serif;
+    --font-size1: 15px;
+    --font-size2: 17px;
+    --font-size3: 20px;
+    --font-size4: 35px;
+    --font-size5: 44px;
+    --font-size6: 32px;
+    --font-size7: 13px;
+    --font-size8: 12px;
+    --color-primary: #F1CDB3;
+    --color-light-xl: #FFFFFF;
+    --color-light-s: #FAFAFA;
+    --color-light-l: #F6F6F6;
+    --color-dark-s:#CDCDCD;
+    --color-dark-3xl:#292929;
+    --color-dark-l:#545454;
+    --color-dark-xl: #4C4C4C;
+    --font-weight1: 400;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+div, p, h1, h2, h3, nav, ul {
+    margin:0;
+    padding: 0;
+}
