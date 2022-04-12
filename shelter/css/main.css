@@ -240,6 +240,14 @@ section.pets h3 {
     background-color: var(--color-light-s);
     padding-bottom: 30px;
     border-radius: 9px;
+    transition-duration: 1s;
+}
+
+.pets-card:hover {
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    transition-duration: 1s;
+    cursor: pointer;
+
 }
 
 .pets-card p {
@@ -328,16 +336,296 @@ section.pets h3 {
     border: 2px solid var(--color-primary);
     box-sizing: border-box;
     border-radius: 100px;
+    transition-duration: 1s;
 }
 
 .pets-cards-row .circle .arrow {
-     background: url('../assets/images/arrow.png');
-     width: 15px;
-     height: 6px;
-     background-repeat: no-repeat;
+    background: url('../assets/images/arrow.png');
+    width: 15px;
+    height: 6px;
+    background-repeat: no-repeat;
+    transition-duration: 1s;
 
- }
+}
+
+.pets-cards-row .circle:hover {
+    border-color: var(--color-dark-3xl);
+    cursor: pointer;
+}
+
 
 .pets-cards-row .circle .arrow-right {
     transform: rotate(180deg);
+}
+
+
+section.help {
+    background-color: var(--color-light-xl);
+    padding-top: 80px;
+    padding-bottom: 98px;
+}
+
+section.help h3 {
+    width: unset;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.help-container {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 87px;
+}
+
+.help-card {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+    background-color: var(--color-light-xl);
+}
+
+.help-card p {
+    font-family: var(--font1);
+    color: var(--color-dark-l);
+    font-weight: var(--font-weight1);
+    font-size: var(--font-size3);
+    line-height: 115%;
+    letter-spacing: 0.059em;
+}
+
+.help-card-picture {
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-primary);
+    -webkit-mask-size: cover;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.help-card-picture:hover {
+    background-color: var(--color-dark-l);
+}
+
+.help-card-picture-1 {
+    -webkit-mask-image: url('../assets/icons/icon-pet-food.svg');
+}
+
+.help-card-picture-2 {
+    -webkit-mask-image: url('../assets/icons/icon-transportation.svg');
+}
+
+.help-card-picture-3 {
+    -webkit-mask-image: url('../assets/icons/icon-toys.svg');
+}
+
+.help-card-picture-4 {
+    -webkit-mask-image: url('../assets/icons/icon-bowls-and-cups.svg');
+}
+
+.help-card-picture-5 {
+    -webkit-mask-image: url('../assets/icons/icon-shampoos.svg');
+}
+
+.help-card-picture-6 {
+    -webkit-mask-image: url('../assets/icons/icon-vitamins.svg');
+}
+
+.help-card-picture-7 {
+    -webkit-mask-image: url('../assets/icons/icon-medicines.svg');
+}
+
+.help-card-picture-8 {
+    -webkit-mask-image: url('../assets/icons/icon-collars-leashes.svg');
+}
+
+.help-card-picture-9 {
+    -webkit-mask-image: url('../assets/icons/icon-sleeping-area.svg');
+}
+
+.help-card:nth-child(6),
+.help-card:nth-child(7),
+.help-card:nth-child(8),
+.help-card:nth-child(9) {
+    margin-top: -64px;
+}
+
+section.donation {
+    background-color: var(--color-light-l);
+}
+
+.donation-container {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    justify-content: center;
+    padding-top: 84px;
+    padding-bottom: 107px;
+}
+
+.donation-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -2%;
+    gap: 19px;
+    width: 380px;
+}
+
+.donation h3 {
+    width: unset;
+}
+
+.donation-info .name {
+    font-family: var(--font1);
+    color: var(--color-dark-l);
+    font-weight: var(--font-weight1);
+    font-size: var(--font-size1);
+    line-height: 110%;
+    letter-spacing: 0.058em;
+}
+
+.donation-info .credit-card {
+    display: flex;
+    gap: 18px;
+    width: 322px;
+    height: 23px;
+    padding: 10px 15px;
+    text-align: center;
+    font-family: var(--font1);
+    color: var(--color-dark-l);
+    font-weight: var(--font-weight1);
+    font-size: var(--font-size3);
+    background-color: var(--color-primary);
+    border-radius: 9px;
+    line-height: 115%;
+    letter-spacing: 0.058em;
+}
+
+.donation-info .credit-card a {
+    color: var(--color-dark-l);
+    transition: 1s;
+}
+
+.donation-info .credit-card a:hover {
+    color: var(--color-light-xl);
+    transition: 1s;
+}
+
+.donation-info .credit-card-pic {
+    width: 30px;
+    height: 23px;
+    background-color: var(--color-dark-l);
+    -webkit-mask-image: url('../assets/icons/credit-card.svg');
+    -webkit-mask-size: cover;
+}
+
+
+.donation-info .remark-text {
+    font-family: var(--font2);
+    color: var(--color-dark-m);
+    font-weight: var(--font-weight1);
+    font-size: var(--font-size8);
+    line-height: 160%;
+}
+
+
+.donation-picture {
+    width: 505px;
+    height: 261px;
+    background: url('../assets/images/donation-dog.png');
+    background-repeat: no-repeat;
+}
+
+footer {
+    padding-top: 57px;
+    background: url('../assets/images/start-screen-gradient-background.png');
+    background-repeat: no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+.footer-container {
+    display: flex;
+    gap: 129px;
+    padding: 0 42px;
+}
+
+.footer-container h3 {
+    color: var(--color-light-xl);
+}
+
+.footer-container .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-container .contacts-record {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-container .location-record {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-container .location {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.footer-container-icon {
+    background-repeat: no-repeat;
+    background-color: var(--color-primary);
+    -webkit-mask-size: cover;
+}
+
+.icon-email {
+    width: 40px;
+    height: 32px;
+    background: url('../assets/icons/icon-email.svg');
+}
+
+.icon-phone {
+    width: 40px;
+    height: 32px;
+
+    background: url('../assets/icons/icon-phone.svg');
+}
+
+.location-icon {
+    width: 22px;
+    height: 32px;
+    background: url('../assets/icons/icon-marker.svg');
+}
+
+.footer-container p {
+    font-family: Georgia, sans-serif;
+    color: var(--color-primary);
+    font-size: var(--font-size3);
+    letter-spacing: 0.058em;
+    line-height: 115%;
+}
+
+.footer-picture {
+    margin-top: -17px;
+    margin-left: 21px;
+    width: 300px;
+    height: 310px;
+    background: url('../assets/images/footer-puppy.png');
+    background-repeat: no-repeat;
+}
+
+.footer-container a {
+    color: var(--color-primary);
+}
+
+.footer-container a:hover {
+    color: var(--color-light-xl);
 }
