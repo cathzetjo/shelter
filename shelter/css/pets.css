@@ -9,6 +9,11 @@ header {
     color: var(--color-dark-l);
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 h1 a {
     color: var(--color-dark-3xl);
 }
