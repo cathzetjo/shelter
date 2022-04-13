@@ -9,6 +9,14 @@ header {
     color: var(--color-dark-l);
 }
 
+h1 a {
+    color: var(--color-dark-3xl);
+}
+
+h1 a:hover {
+    color: var(--color-primary);
+}
+
 .header-container{
     padding-bottom: 30px;
 }
