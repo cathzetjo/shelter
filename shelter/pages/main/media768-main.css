@@ -42,16 +42,14 @@
         padding-top: 79px;
     }
 
-    .pets-cards .pets-card:nth-child(3) {
-        display: none;
-    }
-
     .pets-cards-row {
         gap: 12px;
     }
 
     .pets-cards {
         gap: 40px;
+        overflow: hidden;
+        max-width: 580px;
     }
 
     .help-container {

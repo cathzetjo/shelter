@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+
+    .pets-container {
+        padding: 0 55px 77px;
+        gap: 28px;
+    }
+
+    .pets-cards {
+        column-gap: 0;
+        row-gap: 32px;
+        justify-content: space-evenly;
+        max-height: 1365px;
+        overflow: hidden;
+    }
+
+    .pets-card {
+        gap: 29px;
+    }
+
+    .pagination {
+        margin-top: 11px;
+        height: unset;
+    }
+
+}
