@@ -1,0 +1,29 @@
+@media only screen and (max-width: 768px) {
+
+    .header-container {
+        padding: 30px;
+    }
+
+    footer {
+        padding-top: 30px;
+        -moz-background-size: unset;
+        -webkit-background-size: unset;
+        -o-background-size: unset;
+        background-size: unset;
+    }
+
+    .footer-container {
+        row-gap: 60px;
+        column-gap: 28px;
+        padding-left: 39px;
+        padding-right: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-picture {
+        margin-top: 0;
+        margin-left: -11px;
+    }
+
+}
