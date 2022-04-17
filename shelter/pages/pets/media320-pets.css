@@ -1,0 +1,24 @@
+@media only screen and (max-width: 320px) {
+
+    section.pets {
+        padding-top: 41px;
+        padding-bottom: 41px;
+    }
+
+    .pets-container {
+        padding: 0;
+        gap: 39px;
+    }
+
+    .pets-card p {
+        font-size: var(--font-size9);
+    }
+
+    .pagination {
+        margin-top: 4px;
+    }
+
+    .pagination .circle-active {
+        font-size: var(--font-size9);
+    }
+}
