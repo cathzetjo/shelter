@@ -1,3 +1,30 @@
+@media only screen and (max-width: 1275px) {
+
+    .footer-container {
+        display: flex;
+        gap: 0;
+        justify-content: space-between;
+        padding: 0 2%;
+    }
+
+    .footer-picture {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+
+    footer {
+        padding-bottom: 57px;
+    }
+
+    .footer-picture {
+        background-size:100%;
+        margin-top: 0;
+    }
+}
+
 @media only screen and (max-width: 768px) {
 
     .header-container {
@@ -10,6 +37,7 @@
         -webkit-background-size: unset;
         -o-background-size: unset;
         background-size: unset;
+        padding-bottom: 0;
     }
 
     .footer-container {
