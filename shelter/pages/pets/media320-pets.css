@@ -21,4 +21,17 @@
     .pagination .circle-active {
         font-size: var(--font-size9);
     }
+
+    .burger-menu span {
+        background: var(--color-dark-3xl);
+    }
+
+    .header-container.open-burger h1 a,
+    .header-container.open-burger .logo p {
+        color: var(--color-light-xl);
+    }
+
+    .burger-menu.open span {
+        background: var(--color-light-xl);
+    }
 }

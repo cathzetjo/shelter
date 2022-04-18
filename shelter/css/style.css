@@ -218,3 +218,7 @@ footer {
 .footer-container a:hover {
     color: var(--color-light-xl);
 }
+
+.burger-menu-window {
+    display: none;
+}

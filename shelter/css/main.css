@@ -447,3 +447,7 @@ section.donation {
     background: url('../assets/images/donation-dog.png');
     background-repeat: no-repeat;
 }
+
+.burger-menu-window {
+    display: none;
+}
