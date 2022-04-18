@@ -10,14 +10,15 @@
     .header-container {
         padding-left: 10px;
         justify-content: start;
+        gap: 44px;
+    }
+
+    .header-container .logo {
+        margin-left: unset;
     }
 
     h2 {
         letter-spacing: 1.5px;
-    }
-
-    .nav {
-        display: none;
     }
 
     .footer-container {
@@ -68,4 +69,10 @@
         height: 265px;
         width: 255px;
     }
+
+
+    .header-container.open-burger {
+        margin-left: unset;
+    }
+
 }

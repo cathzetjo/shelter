@@ -1,0 +1,104 @@
+@media only screen and (max-width: 375px) {
+
+    .nav-big {
+        display: none;
+    }
+
+    .nav-list-burger-menu {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .burger-menu {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 24px;
+        height: 30px;
+        cursor: pointer;
+        user-select: none;
+        z-index: 1;
+    }
+
+    .burger-menu span {
+        width: 126%;
+        height: 3px;
+        background: var(--color-primary);
+        margin: 4px 0;
+        z-index: 2;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .burger-menu.open span:nth-child(1) {
+        transform: rotate(90deg) translate(10px, 10px);
+    }
+
+    .burger-menu.open span:nth-child(2) {
+        transform: rotate(90deg) translate(0, 0);
+    }
+
+    .burger-menu.open span:nth-child(3) {
+        transform: rotate(90deg) translate(-10px, -10px);
+    }
+
+    .burger-menu-window {
+        position: absolute;
+        opacity: 1;
+        transition: 1s;
+        width: 100%;
+    }
+
+    .burger-menu-window.open {
+        display: flex;
+    }
+
+    .nav-burger-menu {
+        margin: 0 auto;
+    }
+
+    .burger-menu-window {
+        position: absolute;
+        background-color: var(--color-dark-3xl);
+        width: 100%;
+        height: calc(100vh - 100px);
+        top: 120px;
+        right: 0;
+    }
+
+    .nav-burger-menu .nav-list-burger-menu {
+        display: flex;
+        flex-direction: column;
+        font-size: 32px;
+        line-height: 160%;
+        margin-top: 131px;
+        row-gap: 40px;
+        text-align: center;
+    }
+
+    .nav-burger-menu .nav-link-burger-menu {
+        color: var(--color-light-xl);
+        transition: .5s;
+    }
+
+    .nav-burger-menu .nav-link-burger-menu:hover {
+        color: var(--color-primary);
+        transition: .5s;
+    }
+
+    .header-container.open-burger {
+        background-color: var(--color-dark-3xl);
+        margin-left: 15%;
+    }
+
+    .header-container {
+        justify-content: space-evenly;
+    }
+
+    .header-container .logo {
+        flex: unset;
+        margin-left: -19%;
+    }
+}
