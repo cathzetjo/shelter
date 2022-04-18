@@ -87,6 +87,7 @@ header {
     display: flex;
     flex-direction: column;
     font-size: var(--font-size7);
+    flex: 1;
 }
 
 h1 {
