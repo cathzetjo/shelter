@@ -87,6 +87,7 @@ header {
     display: flex;
     flex-direction: column;
     font-size: var(--font-size7);
+    flex: 1;
 }
 
 h1 {
@@ -217,4 +218,8 @@ footer {
 
 .footer-container a:hover {
     color: var(--color-light-xl);
+}
+
+.burger-menu-window {
+    display: none;
 }
