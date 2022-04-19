@@ -1,0 +1,29 @@
+@media only screen and (max-width: 700px) {
+    header {
+        background-size: 212%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    header {
+        background-size: 248%;
+    }
+}
+
+@media only screen and (max-width: 503px) {
+    header {
+        background-size: 273%;
+    }
+}
+
+@media only screen and (max-width: 383px) {
+    header {
+        background-size: 302%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    header {
+        background-size: 323%;
+    }
+}
