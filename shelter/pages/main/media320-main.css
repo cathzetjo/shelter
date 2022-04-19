@@ -98,5 +98,13 @@
         margin-top: 19px;
     }
 
+    header {
+        background-size: auto;
+    }
+
+    section.content {
+        background-position-y: -122px;
+        background-size: auto;
+    }
 
 }
