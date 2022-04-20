@@ -1,4 +1,4 @@
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 767px) {
 
     .nav-big {
         display: none;
@@ -102,3 +102,6 @@
         margin-left: -19%;
     }
 }
+
+
+
