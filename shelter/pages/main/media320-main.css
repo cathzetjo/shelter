@@ -44,16 +44,16 @@
         gap: 41px;
     }
 
-    .pets-cards {
-        max-height: 415px;
-    }
-
     .pets-cards-row .circle {
         margin-top: -30px;
     }
 
     .pets-cards-row .circle:last-child {
         margin-left: -100px;
+    }
+
+    .pets-card p {
+        font-size: 20px;
     }
 
     section.help h3 {
