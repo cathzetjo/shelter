@@ -49,6 +49,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
         padding-bottom: 50px;
+        height: 410px;
     }
 
     .content-picture {
