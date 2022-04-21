@@ -64,6 +64,7 @@ header {
     -webkit-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
+    z-index: 1;
 }
 
 .header-container {
