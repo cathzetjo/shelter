@@ -223,6 +223,9 @@ footer {
 
 .burger-menu-window {
     display: none;
+    transition: 0.8s;
+    left: -800px;
+    opacity: 0;
 }
 
 .pets-container {
