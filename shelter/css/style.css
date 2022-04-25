@@ -327,3 +327,12 @@ footer {
     transition: all;
     transition-duration: 1s;
 }
+
+.darker {
+    filter: brightness(75%);
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
