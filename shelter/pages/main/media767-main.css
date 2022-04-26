@@ -1,0 +1,25 @@
+@media only screen and (max-width: 767px) {
+
+    .pets-cards-row {
+        flex-wrap: wrap;
+        column-gap: 110px;
+        row-gap: 20px;
+        justify-content: space-evenly;
+        max-width: 270px;
+    }
+
+    .pets-cards {
+        max-width: 270px;
+        order: 1;
+    }
+
+    .pets-cards-row .circle:first-child {
+        order: 2;
+        transition: 0s;
+    }
+
+    .pets-cards-row .circle:last-child {
+        order: 3;
+        transition: 0s;
+    }
+}

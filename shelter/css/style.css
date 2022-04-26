@@ -223,6 +223,9 @@ footer {
 
 .burger-menu-window {
     display: none;
+    transition: 0.8s;
+    left: -800px;
+    opacity: 0;
 }
 
 .pets-container {
@@ -323,4 +326,13 @@ footer {
     background-color: var(--color-light-s);
     transition: all;
     transition-duration: 1s;
+}
+
+.darker {
+    filter: brightness(70%);
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
 }
