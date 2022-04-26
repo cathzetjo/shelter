@@ -5,6 +5,7 @@ function burgerMenu() {
     const burgerMenuWindow = document.querySelector('.burger-menu-window');
     const header = document.querySelector('.header-container');
     const nav = document.querySelector('.nav-burger-menu');
+    const main = document.querySelector('main');
 
     function toggleMenu() {
         body.classList.toggle('darker');
@@ -18,6 +19,11 @@ function burgerMenu() {
 
     burgerMenu.addEventListener('click', toggleMenu);
     nav.addEventListener('click', toggleMenu);
+    main.addEventListener('click',  ()=>{
+        if (body.classList.contains("darker")) {
+            toggleMenu();
+        }
+    });
 
 }
 
