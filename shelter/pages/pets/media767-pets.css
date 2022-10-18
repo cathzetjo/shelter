@@ -1,0 +1,15 @@
+@media only screen and (max-width: 767px) {
+
+    .header-container.open-burger h1 a,
+    .header-container.open-burger .logo p {
+        color: var(--color-light-xl);
+    }
+
+    .burger-menu.open span {
+        background: var(--color-light-xl);
+    }
+
+    .burger-menu span {
+        background: var(--color-dark-xl);
+    }
+}

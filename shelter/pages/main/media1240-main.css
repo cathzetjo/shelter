@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1240px) {
+    .content-picture {
+        background-size: 100%;
+        height: 635px;
+    }
+
+    .pets-cards-row {
+        gap: 15px;
+    }
+
+    .pets-cards {
+        max-width: 630px;
+        overflow: hidden;
+    }
+
+    .help-container {
+        column-gap: 71px;
+        row-gap: 57px;
+        padding: 0;
+    }
+
+    .help-card:nth-child(6), .help-card:nth-child(7), .help-card:nth-child(8), .help-card:nth-child(9) {
+        margin-top: unset;
+    }
+
+    .help-card {
+        min-width: 157px;
+    }
+
+}
+
+@media only screen and (max-width: 1150px) {
+    .content-picture {
+        height: 530px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .content-picture {
+        height: 425px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .content-picture {
+        margin-top: 10%;
+    }
+
+    .about-picture {
+        background-size: 100%;
+    }
+
+    .pets-cards {
+        overflow: hidden;
+    }
+
+    .donation-picture {
+        background-size: 100%;
+    }
+}
